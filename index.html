@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header> 
+        <h1>Survey Form</h1>
+        <p>Let us know how we can help you</p> 
+    </header>
+   
+    <section>
+        <form action="">
+            <div>  
+                <label for="name">Name</label><br>
+                <input type="text" id="fname" name="name">
+            </div>
+          
+            <div>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email">
+            </div>
+            
+            <div>
+                <label for="age">Age</label><br>
+                <input type="number" name="age" id="age" min="16" max="35">
+            </div>
+
+            <hr>
+
+            <div>
+                <label for="job">Which option best describes your current role?</label>
+                <select name="job">
+                    <option value="job">Student</option>
+                    <option value="job">Graduate</option>
+                    <option value="job">Businessman</option>
+                    <option value="job">Job holder</option>
+                </select>
+            </div>
+
+            <div>
+                <p>How likely is that you would recommend us to a friend?</p>
+                <div>
+                    <input type="radio" name="def" id="def">
+                    <label for="def">Definately</label>
+                </div>
+                <div>
+                    <input type="radio" name="mayb" id="mayb">
+                    <label for="def">Maybe</label>
+                </div>
+                <div>
+                    <input type="radio" name="notSure" id="notSure">
+                    <label for="def">Not sure</label>
+                </div>
+                
+            </div>
+
+            <div>
+                <label for="">which course do you like most?</label>
+                <section name="course">
+                    <option value="couse">Software Engineering</option>
+                    <option value="couse">Product Management</option>
+                    <option value="couse">Data Science</option>
+                </section>
+            </div>
+            
+             <hr>
+
+            <div>
+                <label for="">Things that should be improved in the future(check all that apply)</label>
+                <div>
+                    <input type="checkbox" name="FE" id="FE">
+                    <label for="FE">Frontend Engineering</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" name="BE" id="BE">
+                    <label for="BE">Backend Engineering</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="DV" id="DV">
+                    <label for="DV">Data Science</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="video" id="video">
+                    <label for="video">Videos</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="meetup" id="meetup">
+                    <label for="meetup">Online Meetup</label>
+                </div>
+
+            </div>
+
+            <div>
+                <label for="">Any Corrections or Suggestions</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter Your comment here...">
+                </textarea>
+                
+            </div>
+
+            <div>
+                <input type="submit" value="submit">
+            </div>
+            
+        </form>
+    </section>
+</body>
+</html>
