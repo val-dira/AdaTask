@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://img.freepik.com/free-vector/gradient-luxury-background_23-2148999255.jpg?w=996&t=st=1667063052~exp=1667063652~hmac=6c62cc4b39ec6f45e0bf3aefa658dd364a023c3461cd3405dfbd77af9505d62a");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-container {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    color: #fff;
+    margin-top: 2em;
+}
+
+.form-container input {
+    margin-bottom: 1em;
+}
+

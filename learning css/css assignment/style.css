@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.border {
+    border: 2px solid rgb(0, 128, 0);
+    margin: 30px;
+    padding: 30px;
+}
+
+.dotted-border {
+    border: 2px dotted rgb(0, 0, 255);
+    margin: 30px;
+    padding: 30px;
+}
+
+span.exclamation-mark:hover {
+    color: rgb(255,0, 0);
+}
+
+.header-two {
+    padding: 20px 0;
+}
+
+input.red-btn {
+    accent-color: red;
+}

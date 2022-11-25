@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Form {
+    background-color: #666;
+    padding: 5rem;
+    backdrop-filter: blur(50px);
+}
+
+.row {
+    background-color: #fff;
+}
+
+.header {
+    font-family: 'Sofia', cursive;
+    margin-bottom: 60px;
+    font-weight: 600;
+    color: #666;
+}
+
+.first-paragraph,
+.form-label,
+.create-acc
+{
+    color: #666;
+    font-size: 14px;
+}
+
+input {
+    box-shadow: none!important;
+    border-radius: 0!important;
+}
+
+.forget-password-div {
+    margin-right: 128px;
+    margin-top: 10px;
+}  
+
+a.forget-password-link {
+    text-decoration: none!important;
+    color: #FF7F9F!important;
+    font-size: 14px;
+}
+
+.btn1 {
+    background-color: #666!important;
+    color: #fff!important;
+    width: 45%!important;
+    padding: 0.4rem!important;
+    border-radius: 30px!important;
+    outline: none!important;
+    font-weight: 600!important;
+}
+
+.hr-line-div {
+    margin: 45px 0;
+}
+
+.hr-line {
+    width: 60px;
+    height: 1px;
+    background-color: rgb(183, 181, 181);
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.span {
+    margin-top: -10px;
+    font-size: 12px;
+    color: #666;
+}
+
+.form-control {
+    border: none!important;
+    border-bottom: 1px solid lightgray!important;
+    padding: 0!important;
+    outline: none!important;
+}
+a.google-sign-in {
+    text-decoration: none!important;
+    color: #000;
+    font-size: 13px;
+}
+
+a.create-acc-link {
+    color: #FF7F9F!important;
+    text-decoration: underline!important;
+}
