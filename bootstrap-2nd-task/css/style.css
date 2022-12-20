@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: #092032;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 600 !important;
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.navbar {
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+    
+}
+
+.sticky-navbar {
+    position: fixed !important;
+    width: 100% !important;
+    z-index: 999;
+}
+
+a.nav-link {
+    color: #092032;
+    font-size: 1.2rem;
+}
+
+a.nav-link:hover,
+a.nav-link:active {
+    color: rgb(240, 71, 15);
+}
+
+.navbar-brand {
+    font-weight: 600 !important;
+    font-size: 1.7rem !important;
+    color: #092032;
+}
+
+.navbar-brand span {
+    color: rgb(240, 71, 15); 
+}
+
+a.btn {
+    padding: 9px 24px;
+    font-weight: 600;
+}
+
+a.btn-brand,
+button.btn-brand {
+    background-color: rgb(240, 71, 15);
+    color: #fff;
+    border-color: rgb(240, 71, 15);
+}
+
+a.btn-brand:hover {
+    color: #fff;
+    background-color: rgb(214, 57, 4);
+}
+
+/* //////////////Carousel//////////////// */
+
+.carousel-height {
+    height: 100vh;
+}
+
+.carousel-item img {
+   object-fit: cover;
+   object-position: bottom;
+}
+
+.arrow-color {
+    background-color: rgb(240, 71, 15);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+/* /////////////// About /////////// */
+
+.icon-bg {
+    background-color: rgb(240, 71, 15);
+    padding: 30px;
+    border-radius: 100%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.fa-solid,
+.fa-brands{
+    color: #fff;
+    font-size: 25px;
+}
+
+.info-box {
+    display: flex;
+    align-items: center;
+}
+
+.profile-img__border-radius {
+    border-radius: 100%;
+}
+
+
+/* //////// Skills ///////// */
+
+.intro{
+   margin-bottom: 40px;
+}
+
+.intro h6 {
+    font-weight: 800px !important;
+    font-size: 1.8rem;
+    color: rgb(240, 71, 15);
+}
+
+.intro p {
+    max-width: 500px;
+    margin: auto;
+}
+
+.skill-box {
+    padding: 32px;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.skill-box h5 {
+    margin-bottom: 12px;
+}
+
+/* ///////// Footer //////// */
+footer {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    background: linear-gradient(rgba(9, 32, 50, 0.8), rgba(9, 32, 50, 0.8)), url(../images/food\ poster.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-top {
+    margin-bottom: 40px;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.288);
+    padding-top: 20px;
+}
+
+.footer-icon-bg {
+    background: #586c7b75;
+    padding: 10px;
+}
+
+.footer-icon-bg:hover {
+    background: rgb(240, 71, 15);
+}
+
+
+/* Form */
+.form-contol {
+    box-shadow: none;
+    border-color: rgb(240, 71, 15);
+}
